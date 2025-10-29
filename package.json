@@ -26,6 +26,7 @@
     "docker:reset": "docker compose down -v && docker compose up -d"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.11.1",
     "@hookform/resolvers": "^3.9.0",
     "@prisma/client": "^5.17.0",
     "@radix-ui/react-avatar": "^1.1.0",
@@ -41,7 +42,7 @@
     "date-fns": "^3.6.0",
     "lucide-react": "^0.400.0",
     "next": "^14.2.0",
-    "next-auth": "^5.0.0-beta.19",
+    "next-auth": "^5.0.0-beta.30",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-hook-form": "^7.52.0",
