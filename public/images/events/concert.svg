@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="concertBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEE2E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FECACA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#concertBg)"/>
+
+  <!-- Stage -->
+  <rect x="120" y="180" width="160" height="60" fill="#991B1B" rx="3"/>
+  <rect x="120" y="175" width="160" height="10" fill="#B91C1C"/>
+
+  <!-- Microphone stand -->
+  <line x1="200" y1="120" x2="200" y2="175" stroke="#7F1D1D" stroke-width="4"/>
+  <circle cx="200" cy="115" r="10" fill="#DC2626"/>
+  <ellipse cx="200" cy="115" rx="12" ry="6" fill="#7F1D1D" opacity="0.3"/>
+
+  <!-- Musical notes -->
+  <g fill="#DC2626" opacity="0.4">
+    <circle cx="150" cy="90" r="8"/>
+    <rect x="158" y="60" width="3" height="32"/>
+    <path d="M158,60 Q175,55 175,65" fill="none" stroke="#DC2626" stroke-width="3"/>
+
+    <circle cx="250" cy="100" r="6"/>
+    <rect x="256" y="75" width="3" height="27"/>
+  </g>
+
+  <!-- Crowd -->
+  <g opacity="0.3">
+    <circle cx="140" cy="230" r="8" fill="#7F1D1D"/>
+    <circle cx="170" cy="235" r="8" fill="#7F1D1D"/>
+    <circle cx="200" cy="232" r="8" fill="#7F1D1D"/>
+    <circle cx="230" cy="235" r="8" fill="#7F1D1D"/>
+    <circle cx="260" cy="230" r="8" fill="#7F1D1D"/>
+  </g>
+
+  <text x="200" y="275" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#991B1B" text-anchor="middle">Concert</text>
+</svg>

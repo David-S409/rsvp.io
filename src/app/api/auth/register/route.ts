@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
                 email: user.email,
             },
         });
-    } catch (error) {
+    } catch {
         return NextResponse.json(
             { error: 'Something went wrong. Try again.' },
             { status: 500 }

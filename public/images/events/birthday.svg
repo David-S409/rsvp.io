@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bdayBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAE8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3E8FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bdayBg)"/>
+
+  <!-- Balloons -->
+  <ellipse cx="140" cy="100" rx="25" ry="30" fill="#A855F7" opacity="0.7"/>
+  <line x1="140" y1="130" x2="140" y2="200" stroke="#A855F7" stroke-width="2"/>
+
+  <ellipse cx="200" cy="80" rx="25" ry="30" fill="#C084FC" opacity="0.8"/>
+  <line x1="200" y1="110" x2="200" y2="200" stroke="#C084FC" stroke-width="2"/>
+
+  <ellipse cx="260" cy="110" rx="25" ry="30" fill="#D8B4FE" opacity="0.7"/>
+  <line x1="260" y1="140" x2="260" y2="200" stroke="#D8B4FE" stroke-width="2"/>
+
+  <!-- Cake -->
+  <rect x="160" y="180" width="80" height="60" fill="#9333EA" rx="3"/>
+  <rect x="160" y="180" width="80" height="15" fill="#A855F7"/>
+  <rect x="185" y="160" width="5" height="20" fill="#FEF3C7"/>
+  <rect x="210" y="160" width="5" height="20" fill="#FEF3C7"/>
+  <ellipse cx="187.5" cy="160" rx="3" ry="5" fill="#F59E0B"/>
+  <ellipse cx="212.5" cy="160" rx="3" ry="5" fill="#F59E0B"/>
+
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#7C3AED" text-anchor="middle">Birthday</text>
+</svg>
